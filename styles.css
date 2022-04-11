@@ -1,0 +1,98 @@
+* {
+    border: 2px solid red;
+  }
+
+.header {
+    font-family: Roboto;
+    font-size: 24px;
+    background: white;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  /* .logo {
+    font-size: 48px;
+    font-weight: 900;
+    color: tomato;
+    background: white;
+    padding: 4px 32px;
+  } */
+  
+  .section1 {
+    font-family: Roboto;
+    background: white;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: row;
+  }
+
+  .signup {
+    background-color: #3882f6; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  img {
+    display: flex;
+    max-width: 20%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .section2 {
+    font-family: Roboto;
+    background: white;
+    background-color: white;
+    display: flex;
+    justify-content: row;
+  }
+  .section3 {
+    font-family: Roboto;
+    background: papayawhip;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: row;
+  }
+
+  .section4 {
+    font-family: Roboto;
+    background: #1F2937;
+    background-color: white;
+    display: flex;
+    justify-content: row;
+  }
+
+  .footer {
+    font-family: Roboto;
+    background: #1F2937;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: row;
+  }
+
+
+  ul {
+    /* this removes the dots on the list items*/
+    font-size: 18px;
+    /* background: #e5e7eb; */
+    background-color: #1F2937;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 8px;
+  }
+  
+  a {
+    font-size: 22px;
+    background: white;
+    padding: 8px;
+    /* this removes the line under the links */
+    text-decoration: none;
+  }
